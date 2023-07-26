@@ -1,0 +1,5917 @@
+{
+  "name":"loop_attributes"
+  , "id":12175
+  , "nodes":
+  [
+    {
+      "name":"parse_reads1"
+      , "id":1
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"parse_reads1.B0"
+          , "id":43
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"parse_reads1.B1"
+          , "id":44
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"2"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":530
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"parse_reads1.B3"
+              , "id":46
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"3"
+              , "ll":"2"
+              , "lt":"18.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":531
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"parse_reads1.B4"
+                  , "id":47
+                  , "af":"480.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Enabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"19.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"1"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: enabled."
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                        , "line":541
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"parse_reads1.B5"
+              , "id":48
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"parse_reads1.B2"
+          , "id":45
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"parse_reads1.B6"
+          , "id":49
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"produce_reads1"
+      , "id":4
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"produce_reads1.B0"
+          , "id":64
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"produce_reads1.B1"
+          , "id":65
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"n/a"
+          , "ll":"1"
+          , "lt":"7.000000"
+          , "mi":"1"
+          , "pl":"No"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: disabled."
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to loop not pipelined"
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":507
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"produce_reads1.B3"
+              , "id":67
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"3"
+              , "ll":"2"
+              , "lt":"302.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":508
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"produce_reads1.B4"
+                  , "id":68
+                  , "af":"432.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Enabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"10.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"16"
+                  , "tn":"1"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: enabled."
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                        , "line":514
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"produce_reads1.B5"
+              , "id":69
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"238.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"produce_reads1.B2"
+          , "id":66
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"5.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"produce_reads1.B6"
+          , "id":70
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":2
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":50
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":51
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"6.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: disabled."
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+                , {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":628
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B3"
+              , "id":53
+              , "af":"349.92"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"178.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":629
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":52
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":54
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":3
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":55
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":56
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"7"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":807
+              }
+            ]
+          ]
+          , "type":"loop"
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":57
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"10.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":58
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"3"
+          , "ll":"1"
+          , "lt":"21.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":809
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B5"
+              , "id":60
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"71.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":814
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"'lambda'().B6"
+                  , "id":61
+                  , "af":"480.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"110"
+                  , "ll":"3"
+                  , "lt":"229.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: disabled."
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure is disabled due to compressed push-pop"
+                        }
+                      ]
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                        , "line":817
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"'lambda'().B7"
+              , "id":62
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"2.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":59
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"14.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B8"
+          , "id":63
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":42
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":268
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":269
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"3"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":885
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":270
+              , "af":"314.93"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"8.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure is disabled due to compressed push-pop"
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":888
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+            , {
+              "name":"'lambda'().B3"
+              , "id":271
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"308.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+            , {
+              "name":"'lambda'().B4"
+              , "id":272
+              , "af":"432.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"32.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"16"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/opt/rh/gcc-toolset-12/root/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/bitset"
+                    , "line":139
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B5"
+          , "id":273
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"247.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B6"
+          , "id":274
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":5
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":71
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":72
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"6.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: disabled."
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+                , {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":584
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B3"
+              , "id":74
+              , "af":"349.92"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"51.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":585
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":73
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":75
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":15
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":121
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":122
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":123
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":124
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":125
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":16
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":126
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":127
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":128
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":129
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":130
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":17
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":131
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":132
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":133
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":134
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":135
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":18
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":136
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":137
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":138
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":139
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":140
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":19
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":141
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":142
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":143
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":144
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":145
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":20
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":146
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":147
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":148
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":149
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":150
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":21
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":151
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":152
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":153
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":154
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":155
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":22
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":156
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":157
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":158
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":159
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":160
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":23
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":161
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":162
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":163
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":164
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":165
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":24
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":166
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":167
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":168
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":169
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":170
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":76
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":77
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"6.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: disabled."
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+                , {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":584
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B3"
+              , "id":79
+              , "af":"349.92"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"51.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":585
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":78
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":80
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":25
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":171
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":172
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":173
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":174
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":175
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":26
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":176
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":177
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":178
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":179
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":180
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":27
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":181
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":182
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":183
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":184
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":185
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":28
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":186
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":187
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":188
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":189
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":190
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":29
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":191
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":192
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":193
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":194
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":195
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":30
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":196
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":197
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":198
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":199
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":200
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":31
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":201
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":202
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":203
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":204
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":205
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":32
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":206
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":207
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":208
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":209
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":210
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":33
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":211
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":212
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":213
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":214
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":215
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":34
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":216
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":217
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":218
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":219
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":220
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":7
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":81
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":82
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"6.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: disabled."
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+                , {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":584
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B3"
+              , "id":84
+              , "af":"349.92"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"51.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure is disabled due to block has multiple channel calls"
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":585
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":83
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":85
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":35
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":221
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":222
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":223
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":224
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":225
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":36
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":226
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":227
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":228
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":229
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":230
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":37
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":231
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":232
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":233
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":234
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":235
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":38
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":236
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":237
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":238
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":239
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":240
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":39
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":241
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":242
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"8"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":734
+              }
+            ]
+          ]
+          , "type":"loop"
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":243
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"10.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":244
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"3"
+          , "ll":"1"
+          , "lt":"24.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":736
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B5"
+              , "id":246
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"11.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":741
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"'lambda'().B6"
+                  , "id":247
+                  , "af":"480.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"125"
+                  , "ll":"3"
+                  , "lt":"259.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: disabled."
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure is disabled due to compressed push-pop"
+                        }
+                      ]
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                        , "line":744
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"'lambda'().B7"
+              , "id":248
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"2.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":245
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"14.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B8"
+          , "id":249
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":40
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":250
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":251
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"8"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":734
+              }
+            ]
+          ]
+          , "type":"loop"
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":252
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"10.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":253
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"3"
+          , "ll":"1"
+          , "lt":"24.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":736
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B5"
+              , "id":255
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"11.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":741
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"'lambda'().B6"
+                  , "id":256
+                  , "af":"480.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"125"
+                  , "ll":"3"
+                  , "lt":"259.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: disabled."
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure is disabled due to compressed push-pop"
+                        }
+                      ]
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                        , "line":744
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"'lambda'().B7"
+              , "id":257
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"2.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":254
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"14.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B8"
+          , "id":258
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":41
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":259
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":260
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"9.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"8"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":734
+              }
+            ]
+          ]
+          , "type":"loop"
+        }
+        , {
+          "name":"'lambda'().B2"
+          , "id":261
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"10.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":262
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"3"
+          , "ll":"1"
+          , "lt":"24.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":736
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B5"
+              , "id":264
+              , "af":"480.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Enabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"11.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: enabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":741
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"'lambda'().B6"
+                  , "id":265
+                  , "af":"480.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"125"
+                  , "ll":"3"
+                  , "lt":"259.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: disabled."
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure is disabled due to compressed push-pop"
+                        }
+                      ]
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                        , "line":744
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"'lambda'().B7"
+              , "id":266
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"2.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":263
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"14.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B8"
+          , "id":267
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":8
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":86
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":87
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":88
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":89
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":90
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":9
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":91
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":92
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":93
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":94
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":95
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":10
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":96
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":97
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":98
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":99
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":100
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":11
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":101
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":102
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":103
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":104
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":105
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":12
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":106
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":107
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":108
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":109
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":110
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":13
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":111
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":112
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":113
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":114
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":115
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":14
+      , "clk":"No"
+      , "fmax":"480.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"'lambda'().B0"
+          , "id":116
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B1"
+          , "id":117
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Enabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"8.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: enabled."
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                , "line":674
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"'lambda'().B2"
+              , "id":118
+              , "af":"480.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"332"
+              , "ll":"2"
+              , "lt":"339.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: disabled."
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12.cpp"
+                    , "line":676
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"'lambda'().B3"
+          , "id":119
+          , "af":"480.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"0.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"2"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"'lambda'().B4"
+          , "id":120
+          , "af":"480.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+  ]
+}
