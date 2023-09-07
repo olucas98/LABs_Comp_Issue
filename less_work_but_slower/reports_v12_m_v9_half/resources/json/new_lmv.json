@@ -1,0 +1,4162 @@
+{
+  "nodes":
+  [
+    {
+      "name":"parse_reads1"
+      , "id":6279
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6280
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"dev_seq"
+              , "id":6281
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"584"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":584
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"current_kmer"
+              , "id":6282
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"609"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":609
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6283
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6284
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6285
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"675"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":675
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"current_kmer"
+              , "id":6286
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"682"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":682
+                  }
+                ]
+              ]
+              , "type":"unsynth"
+            }
+            , {
+              "name":"tiny_result"
+              , "id":6287
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"690"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":690
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"done_signal"
+              , "id":6288
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"710"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":710
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6289
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6290
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"early_qs"
+              , "id":6291
+              , "brief":"Implemented size:128 bytes = (2 words per bank) x (64 bytes per word) | Memory Usage:32 RAMs | Number of banks:1 | Bank width (word size):64 bytes | Bank depth:2 words | Number of replicates:1 | Number of private copies:1 | RAM Mode:True dual-port | Pump configuration:Single-pumped"
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"873"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Requested size":"84 bytes"
+                  , "Implemented size":"128 bytes = (2 words per bank) x (64 bytes per word)"
+                  , "Memory Usage":"32 RAMs"
+                  , "Additional information":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Shallow memory implemented in RAMs instead of MLABs because MLABs cannot be configured in true dual-port mode."
+                    }
+                    , {
+                      "type":"text"
+                      , "text":"RAM usage is increased from 16 RAMs to 32 RAMs because the width of individual RAM blocks in true dual-port mode is limited to 20 bits."
+                    }
+                    , {
+                      "type":"text"
+                      , "text":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                    }
+                  ]
+                  , "Number of banks":"1"
+                  , "Bank width (word size)":"64 bytes"
+                  , "Bank depth":"2 words"
+                  , "Number of replicates":"1"
+                  , "Number of private copies":"1"
+                  , "RAM Mode":"True dual-port"
+                  , "Pump configuration":"Single-pumped"
+                  , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                  , "Reference":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"See %L for more information"
+                      , "links":
+                      [
+                        {
+                          "guide":"Best Practices Guide : Local Memory"
+                          , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/chn1469549457114.html"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":873
+                  }
+                ]
+              ]
+              , "type":"memsys"
+              , "children":
+              [
+                {
+                  "name":"Bank 0"
+                  , "id":6298
+                  , "brief":"Memory Usage:32 RAMs | Bank width:64 bytes | Bank depth:2 words | Implemented bank size:128 bytes = (2 words) x (64 bytes per word)"
+                  , "details":
+                  [
+                    {
+                      "type":"table"
+                      , "Memory Usage":"32 RAMs"
+                      , "Bank width":"64 bytes"
+                      , "Bank depth":"2 words"
+                      , "Implemented bank size":"128 bytes = (2 words) x (64 bytes per word)"
+                      , "Number of active ports":"2"
+                      , "Number of shared (RW) ports":"2"
+                      , "Additional information":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Shallow memory implemented in RAMs instead of MLABs because MLABs cannot be configured in true dual-port mode."
+                        }
+                        , {
+                          "type":"text"
+                          , "text":"RAM usage is increased from 16 RAMs to 32 RAMs because the width of individual RAM blocks in true dual-port mode is limited to 20 bits."
+                        }
+                        , {
+                          "type":"text"
+                          , "text":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                        }
+                      ]
+                      , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                        , "line":873
+                      }
+                    ]
+                  ]
+                  , "type":"bank"
+                  , "children":
+                  [
+                    {
+                      "name":"Replicate 0"
+                      , "id":6299
+                      , "padding":"0"
+                      , "depth":"2"
+                      , "brief":"Implemented size:128 bytes = (2 words) x (64 bytes per word) | Memory Usage:32 RAMs"
+                      , "details":
+                      [
+                        {
+                          "type":"table"
+                          , "Implemented size":"128 bytes = (2 words) x (64 bytes per word)"
+                          , "Memory Usage":"32 RAMs"
+                          , "Number of physical ports":"2"
+                          , "Number of read ports":"0"
+                          , "Number of shared (RW) ports":"2"
+                          , "Additional information":
+                          [
+                            {
+                              "type":"text"
+                              , "text":"Shallow memory implemented in RAMs instead of MLABs because MLABs cannot be configured in true dual-port mode."
+                            }
+                            , {
+                              "type":"text"
+                              , "text":"RAM usage is increased from 16 RAMs to 32 RAMs because the width of individual RAM blocks in true dual-port mode is limited to 20 bits."
+                            }
+                            , {
+                              "type":"text"
+                              , "text":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                            }
+                          ]
+                          , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                            , "line":873
+                          }
+                        ]
+                      ]
+                      , "type":"replicate"
+                      , "children":
+                      [
+                        {
+                          "name":"RW"
+                          , "id":6300
+                          , "type":"port"
+                        }
+                        , {
+                          "name":"RW"
+                          , "id":6302
+                          , "type":"port"
+                        }
+                      ]
+                      , "copies":
+                      {
+                        "num":1
+                        , "details":
+                        [
+                          {
+                            "type":"table"
+                            , "Width":"64 bytes"
+                            , "Depth per copy (including padding)":"2 words"
+                            , "Number of private copies":"1"
+                            , "Additional information":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                            , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+            , {
+              "name":"early"
+              , "id":6304
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"872"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":872
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"current_q"
+              , "id":6305
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"874"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":874
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"found"
+              , "id":6306
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"878"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":878
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6307
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"939"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":939
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+        , {
+          "name":"Load"
+          , "id":6292
+          , "brief":"Width:256 bits | Stall-free:Yes | Type:Pipelined never-stall | Loads from:early_qs | Start cycle:1 | Latency:4"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"256 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Loads from":"early_qs"
+              , "Start cycle":"1"
+              , "Latency":"4"
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Load"
+          , "id":6293
+          , "brief":"Width:512 bits | Stall-free:Yes | Type:Pipelined never-stall | Loads from:early_qs | Start cycle:1 | Latency:4"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"512 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Loads from":"early_qs"
+              , "Start cycle":"1"
+              , "Latency":"4"
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6294
+          , "brief":"Width:32 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:4 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"32 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"4"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"94"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"873"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":94
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6295
+          , "brief":"Width:16 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:4 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"16 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"4"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"95"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"873"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":95
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6296
+          , "brief":"Width:512 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:7 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"512 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"7"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"908"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"56"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"74"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"887"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":908
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6297
+          , "brief":"Width:256 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:6 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"256 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"6"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"908"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"56"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"74"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"887"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":908
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"SHARE"
+          , "id":6301
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Additional Information":"Mutually exclusive accesses, no stalls"
+            }
+          ]
+          , "type":"arb"
+        }
+        , {
+          "name":"SHARE"
+          , "id":6303
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Additional Information":"Mutually exclusive accesses, no stalls"
+            }
+          ]
+          , "type":"arb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6308
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6309
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6310
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6311
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6312
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6313
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6314
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6315
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6316
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6317
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6318
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6319
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6320
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6321
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6322
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6323
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6324
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6325
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6326
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6327
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6328
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6329
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6330
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6331
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6332
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6333
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6334
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6335
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6336
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6337
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6338
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6339
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6340
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6341
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6342
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6343
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6344
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6345
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6346
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6347
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6348
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6349
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6350
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6351
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6352
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"530"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":530
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"produce_reads1"
+      , "id":6353
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6354
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6355
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"554"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":554
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"curr_seq"
+              , "id":6356
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"561"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":561
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6357
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6358
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"current_kmer"
+              , "id":6359
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"636"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":636
+                  }
+                ]
+              ]
+              , "type":"unsynth"
+            }
+            , {
+              "name":"tiny_result"
+              , "id":6360
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"643"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":643
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"done_signal"
+              , "id":6361
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"663"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":663
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6362
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6363
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6364
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6365
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6366
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6367
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6368
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6369
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6370
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6371
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6372
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6373
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6374
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6375
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6376
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6377
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6378
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6379
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6380
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6381
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6382
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6383
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6384
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6385
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6386
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6387
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6388
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6389
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6390
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6391
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6392
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6393
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6394
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6395
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6396
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6397
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6398
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6399
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6400
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6401
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6402
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6403
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6404
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6405
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6406
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6407
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6408
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6409
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6410
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6411
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6412
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6413
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6414
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6415
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6416
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6417
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6418
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6419
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6420
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"723"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":723
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6421
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"761"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":761
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6422
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6423
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"early_qs"
+              , "id":6424
+              , "brief":"Implemented size:128 bytes = (2 words per bank) x (64 bytes per word) | Memory Usage:32 RAMs | Number of banks:1 | Bank width (word size):64 bytes | Bank depth:2 words | Number of replicates:1 | Number of private copies:1 | RAM Mode:True dual-port | Pump configuration:Single-pumped"
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"790"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Requested size":"96 bytes"
+                  , "Implemented size":"128 bytes = (2 words per bank) x (64 bytes per word)"
+                  , "Memory Usage":"32 RAMs"
+                  , "Additional information":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Shallow memory implemented in RAMs instead of MLABs because MLABs cannot be configured in true dual-port mode."
+                    }
+                    , {
+                      "type":"text"
+                      , "text":"RAM usage is increased from 16 RAMs to 32 RAMs because the width of individual RAM blocks in true dual-port mode is limited to 20 bits."
+                    }
+                    , {
+                      "type":"text"
+                      , "text":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                    }
+                  ]
+                  , "Number of banks":"1"
+                  , "Bank width (word size)":"64 bytes"
+                  , "Bank depth":"2 words"
+                  , "Number of replicates":"1"
+                  , "Number of private copies":"1"
+                  , "RAM Mode":"True dual-port"
+                  , "Pump configuration":"Single-pumped"
+                  , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                  , "Reference":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"See %L for more information"
+                      , "links":
+                      [
+                        {
+                          "guide":"Best Practices Guide : Local Memory"
+                          , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/chn1469549457114.html"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":790
+                  }
+                ]
+              ]
+              , "type":"memsys"
+              , "children":
+              [
+                {
+                  "name":"Bank 0"
+                  , "id":6431
+                  , "brief":"Memory Usage:32 RAMs | Bank width:64 bytes | Bank depth:2 words | Implemented bank size:128 bytes = (2 words) x (64 bytes per word)"
+                  , "details":
+                  [
+                    {
+                      "type":"table"
+                      , "Memory Usage":"32 RAMs"
+                      , "Bank width":"64 bytes"
+                      , "Bank depth":"2 words"
+                      , "Implemented bank size":"128 bytes = (2 words) x (64 bytes per word)"
+                      , "Number of active ports":"2"
+                      , "Number of shared (RW) ports":"2"
+                      , "Additional information":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Shallow memory implemented in RAMs instead of MLABs because MLABs cannot be configured in true dual-port mode."
+                        }
+                        , {
+                          "type":"text"
+                          , "text":"RAM usage is increased from 16 RAMs to 32 RAMs because the width of individual RAM blocks in true dual-port mode is limited to 20 bits."
+                        }
+                        , {
+                          "type":"text"
+                          , "text":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                        }
+                      ]
+                      , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                        , "line":790
+                      }
+                    ]
+                  ]
+                  , "type":"bank"
+                  , "children":
+                  [
+                    {
+                      "name":"Replicate 0"
+                      , "id":6432
+                      , "padding":"0"
+                      , "depth":"2"
+                      , "brief":"Implemented size:128 bytes = (2 words) x (64 bytes per word) | Memory Usage:32 RAMs"
+                      , "details":
+                      [
+                        {
+                          "type":"table"
+                          , "Implemented size":"128 bytes = (2 words) x (64 bytes per word)"
+                          , "Memory Usage":"32 RAMs"
+                          , "Number of physical ports":"2"
+                          , "Number of read ports":"0"
+                          , "Number of shared (RW) ports":"2"
+                          , "Additional information":
+                          [
+                            {
+                              "type":"text"
+                              , "text":"Shallow memory implemented in RAMs instead of MLABs because MLABs cannot be configured in true dual-port mode."
+                            }
+                            , {
+                              "type":"text"
+                              , "text":"RAM usage is increased from 16 RAMs to 32 RAMs because the width of individual RAM blocks in true dual-port mode is limited to 20 bits."
+                            }
+                            , {
+                              "type":"text"
+                              , "text":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                            }
+                          ]
+                          , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                            , "line":790
+                          }
+                        ]
+                      ]
+                      , "type":"replicate"
+                      , "children":
+                      [
+                        {
+                          "name":"RW"
+                          , "id":6433
+                          , "type":"port"
+                        }
+                        , {
+                          "name":"RW"
+                          , "id":6435
+                          , "type":"port"
+                        }
+                      ]
+                      , "copies":
+                      {
+                        "num":1
+                        , "details":
+                        [
+                          {
+                            "type":"table"
+                            , "Width":"64 bytes"
+                            , "Depth per copy (including padding)":"2 words"
+                            , "Number of private copies":"1"
+                            , "Additional information":"In each private copy:</br>  Variable 'early_qs' occupies memory words [0-1] and has 5 array elements per memory word."
+                            , "Address bit information":"<table><tr><td>Byte address</td><td>b<sub>6</sub></td><td>b<sub>5</sub></td><td>b<sub>4</sub></td><td>b<sub>3</sub></td><td>b<sub>2</sub></td><td>b<sub>1</sub></td><td>b<sub>0</sub></td></tr><tr><td>Sub-word bits</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Word address bit</td><td>b<sub>6</sub></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+            , {
+              "name":"__SYCLKernel"
+              , "id":6437
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"786"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":786
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"early"
+              , "id":6438
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"789"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":789
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"current_q"
+              , "id":6439
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"791"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":791
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"found"
+              , "id":6440
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"795"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":795
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"q"
+              , "id":6441
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"856"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":856
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+        , {
+          "name":"Load"
+          , "id":6425
+          , "brief":"Width:256 bits | Stall-free:Yes | Type:Pipelined never-stall | Loads from:early_qs | Start cycle:1 | Latency:4"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"256 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Loads from":"early_qs"
+              , "Start cycle":"1"
+              , "Latency":"4"
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Load"
+          , "id":6426
+          , "brief":"Width:512 bits | Stall-free:Yes | Type:Pipelined never-stall | Loads from:early_qs | Start cycle:1 | Latency:4"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"512 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Loads from":"early_qs"
+              , "Start cycle":"1"
+              , "Latency":"4"
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6427
+          , "brief":"Width:32 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:4 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"32 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"4"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"94"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"790"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":94
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6428
+          , "brief":"Width:16 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:4 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"16 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"4"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"95"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"790"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":95
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6429
+          , "brief":"Width:512 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:6 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"512 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"6"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"825"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"56"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"74"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"804"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":825
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Store"
+          , "id":6430
+          , "brief":"Width:256 bits | Stall-free:Yes | Type:Pipelined never-stall | Stores to:early_qs | Start cycle:6 | Latency:1"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Width":"256 bits"
+              , "Stall-free":"Yes"
+              , "Type":"Pipelined never-stall"
+              , "Stores to":"early_qs"
+              , "Start cycle":"6"
+              , "Latency":"1"
+              , "Inlined Debug Locations":
+              [
+                {
+                  "type":"text"
+                  , "text":"%L > %L > %L > %L > %L"
+                  , "links":
+                  [
+                    {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"825"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"56"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/unrolled_loop.hpp"
+                      , "line":"74"
+                    }
+                    , {
+                      "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                      , "line":"804"
+                    }
+                    , {
+                      "filename":"/opt/intel/oneapi/compiler/2023.0.0/linux/bin-llvm/../include/sycl/handler.hpp"
+                      , "line":"1100"
+                    }
+                  ]
+                }
+              ]
+              , "Reference":
+              [
+                {
+                  "type":"text"
+                  , "text":"See %L for more information"
+                  , "links":
+                  [
+                    {
+                      "guide":"Best Practices Guide : Load-Store Units"
+                      , "link":"file:////opt/intel/oneapi/compiler/2023.0.0/linux/lib/oclfpga/aoc_help_pages/yeo1491314105959.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                , "line":825
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"SHARE"
+          , "id":6434
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Additional Information":"Mutually exclusive accesses, no stalls"
+            }
+          ]
+          , "type":"arb"
+        }
+        , {
+          "name":"SHARE"
+          , "id":6436
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Additional Information":"Mutually exclusive accesses, no stalls"
+            }
+          ]
+          , "type":"arb"
+        }
+      ]
+    }
+    , {
+      "name":"'lambda'()"
+      , "id":6442
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"On-chip Memory"
+          , "id":6443
+          , "type":"memtype"
+          , "children":
+          [
+            {
+              "name":"__SYCLKernel"
+              , "id":6444
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"959"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":959
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"curr_results"
+              , "id":6445
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"960"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":960
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+            , {
+              "name":"full_query"
+              , "id":6446
+              , "details":
+              [
+                {
+                  "type":"table"
+                  , "Declared at":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"%L"
+                      , "links":
+                      [
+                        {
+                          "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                          , "line":"961"
+                        }
+                      ]
+                    }
+                  ]
+                  , "Additional information":"This variable is carried through the pipeline in registers (rather than being stored in RAM)"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"/ihome/ageorge/opl1/Documents/k_mers/kmer_testing/./src/two_bit_v19_HBM_test_v12_medium_v9_half.cpp"
+                    , "line":961
+                  }
+                ]
+              ]
+              , "type":"reg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  , "links":
+  [
+    {
+      "from":6300
+      , "to":6301
+    }
+    , {
+      "from":6301
+      , "to":6300
+    }
+    , {
+      "from":6301
+      , "to":6292
+    }
+    , {
+      "from":6294
+      , "to":6301
+    }
+    , {
+      "from":6296
+      , "to":6301
+    }
+    , {
+      "from":6302
+      , "to":6303
+    }
+    , {
+      "from":6303
+      , "to":6302
+    }
+    , {
+      "from":6303
+      , "to":6293
+    }
+    , {
+      "from":6295
+      , "to":6303
+    }
+    , {
+      "from":6297
+      , "to":6303
+    }
+    , {
+      "from":6433
+      , "to":6434
+    }
+    , {
+      "from":6434
+      , "to":6433
+    }
+    , {
+      "from":6434
+      , "to":6425
+    }
+    , {
+      "from":6427
+      , "to":6434
+    }
+    , {
+      "from":6429
+      , "to":6434
+    }
+    , {
+      "from":6435
+      , "to":6436
+    }
+    , {
+      "from":6436
+      , "to":6435
+    }
+    , {
+      "from":6436
+      , "to":6426
+    }
+    , {
+      "from":6428
+      , "to":6436
+    }
+    , {
+      "from":6430
+      , "to":6436
+    }
+  ]
+}

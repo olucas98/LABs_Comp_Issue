@@ -1,0 +1,367 @@
+{
+    "quartusFitClockSummary"         : {
+        "nodes" : [{
+            "name"              : "Quartus Fitter: Clock Frequency (MHz)",
+            "kernel clock"      : "286.00",
+            "kernel clock fmax" : "286.28",
+            "clock1x"           : "286.28",
+            "details"           : [{
+                "text" : "The actual frequency of kernel clock is 286.00 MHz after platform PLL adjustment. The maximum frequency for kernel clock is 286.28 MHz. "
+            }],
+            "type"              : "system"
+        }]
+    },
+    "quartusFitResourceUsageSummary" : {
+        "nodes" : [{
+            "type" : "system",
+            "id"   : "1000",
+            "name" : "Quartus Fitter: Kernel System",
+            "alm"  : "184241.2",
+            "reg"  : "436981",
+            "dsp"  : "48",
+            "ram"  : "551",
+            "mlab" : "963"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTS12parse_reads1",
+            "alm"  : "7492.3",
+            "reg"  : "15668",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "31"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTS14produce_reads1",
+            "alm"  : "3188.1",
+            "reg"  : "7469",
+            "dsp"  : "0",
+            "ram"  : "18",
+            "mlab" : "35"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTSZZ4mainENKUlRN4sycl3_V17handlerEE1_clES2_EUlvE",
+            "alm"  : "11128.3",
+            "reg"  : "25216",
+            "dsp"  : "24",
+            "ram"  : "6",
+            "mlab" : "13"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTSZZ4mainENKUlRN4sycl3_V17handlerEE2_clES2_EUlvE",
+            "alm"  : "20508.0",
+            "reg"  : "53043",
+            "dsp"  : "0",
+            "ram"  : "49",
+            "mlab" : "183"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTSZZ4mainENKUlRN4sycl3_V17handlerEE3_clES2_EUlvE",
+            "alm"  : "8184.7",
+            "reg"  : "19222",
+            "dsp"  : "0",
+            "ram"  : "39",
+            "mlab" : "92"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTSZZZ4mainENKUlT_E1_clISt17integral_constantImLm0EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "8713.2",
+            "reg"  : "18218",
+            "dsp"  : "24",
+            "ram"  : "4",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "ZTSZZZ4mainENKUlT_E3_clISt17integral_constantImLm0EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "21052.7",
+            "reg"  : "59467",
+            "dsp"  : "0",
+            "ram"  : "23",
+            "mlab" : "172"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k0_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm14EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1588.4",
+            "reg"  : "3193",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k10_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm4EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1591.9",
+            "reg"  : "3193",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k11_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm3EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1592.9",
+            "reg"  : "3193",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k12_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm2EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1592.1",
+            "reg"  : "3202",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k13_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm1EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1590.1",
+            "reg"  : "3206",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k14_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm0EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1586.0",
+            "reg"  : "3227",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k15_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm14EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlv",
+            "alm"  : "2157.9",
+            "reg"  : "4259",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k16_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm13EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlv",
+            "alm"  : "2139.6",
+            "reg"  : "4284",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k17_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm12EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlv",
+            "alm"  : "2129.1",
+            "reg"  : "4210",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k18_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm11EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlv",
+            "alm"  : "2140.4",
+            "reg"  : "4232",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k19_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm10EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlv",
+            "alm"  : "2136.1",
+            "reg"  : "4266",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k1_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm13EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1600.4",
+            "reg"  : "3193",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k20_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm9EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2162.1",
+            "reg"  : "4280",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k21_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm8EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2161.1",
+            "reg"  : "4277",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k22_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm7EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2168.3",
+            "reg"  : "4305",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k23_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm6EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2155.2",
+            "reg"  : "4265",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k24_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm5EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2145.1",
+            "reg"  : "4295",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k25_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm4EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2134.6",
+            "reg"  : "4245",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k26_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm3EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2137.8",
+            "reg"  : "4223",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "8"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k27_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm2EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2164.5",
+            "reg"  : "4293",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k28_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm1EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2167.2",
+            "reg"  : "4289",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k29_ZTSZZZ4mainENKUlT_E2_clISt17integral_constantImLm0EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "2163.1",
+            "reg"  : "4346",
+            "dsp"  : "0",
+            "ram"  : "9",
+            "mlab" : "9"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k2_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm12EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1600.6",
+            "reg"  : "3193",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k3_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm11EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1587.6",
+            "reg"  : "3205",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k4_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm10EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1595.3",
+            "reg"  : "3196",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k5_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm9EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1587.4",
+            "reg"  : "3238",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k6_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm8EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1587.4",
+            "reg"  : "3197",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k7_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm7EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1581.0",
+            "reg"  : "3199",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k8_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm6EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1597.4",
+            "reg"  : "3194",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "kernel",
+            "id"   : "1010",
+            "name" : "k9_ZTSZZZ4mainENKUlT_E0_clISt17integral_constantImLm5EEEEDaS_ENKUlRN4sycl3_V17handlerEE_clES7_EUlvE",
+            "alm"  : "1595.4",
+            "reg"  : "3193",
+            "dsp"  : "0",
+            "ram"  : "0",
+            "mlab" : "19"
+        },{
+            "type" : "aclsystem",
+            "id"   : "1001",
+            "name" : "Quartus Fitter: Total Used (Entire System)",
+            "alm"  : "411,408",
+            "reg"  : "805,977",
+            "dsp"  : "40",
+            "ram"  : "1,819"
+        }]
+    }
+}
